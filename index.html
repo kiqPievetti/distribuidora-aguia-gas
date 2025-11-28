@@ -3,92 +3,53 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Águia Distribuidora • Gás & Água • Entrega Rápida</title>
+    <title>Águia Distribuidora de Gás e Água</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #0a0f24;
-            color: white;
-            text-align: center;
-        }
+    <!-- Fonte igual da sua arte (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
 
-        .header {
-            width: 100%;
-        }
-
-        .header img {
-            width: 100%;
-            max-height: 420px;
-            object-fit: cover;
-        }
-
-        h1 {
-            margin-top: 25px;
-            font-size: 2rem;
-            font-weight: bold;
-            color: #00a2ff;
-        }
-
-        p {
-            margin-top: 10px;
-            font-size: 1.1rem;
-            color: #e4e4e4;
-        }
-
-        .btn-whatsapp {
-            display: inline-block;
-            margin-top: 25px;
-            padding: 15px 25px;
-            background: #25d366;
-            color: white;
-            font-size: 1.3rem;
-            font-weight: bold;
-            border-radius: 12px;
-            text-decoration: none;
-            box-shadow: 0 0 12px rgba(37,211,102,0.4);
-            transition: 0.2s;
-        }
-
-        .btn-whatsapp:hover {
-            background: #1ebe5a;
-            transform: scale(1.03);
-        }
-
-        .section {
-            padding: 35px 15px;
-        }
-
-        footer {
-            margin-top: 50px;
-            padding: 20px;
-            background: #060913;
-            font-size: 0.9rem;
-            color: #999;
-        }
-    </style>
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Banner -->
-    <div class="header">
-        <img src="assets/banner.png" alt="Banner Águia Distribuidora" />
-    </div>
+    <!-- Topo -->
+    <header class="header">
+        <img src="banner.png" alt="Distribuidora Águia">
+    </header>
 
-    <div class="section">
-        <h1>Águia Distribuidora de Gás e Água</h1>
-        <p>Entrega rápida no Humaitá e região • Gás P13 • Água 20L</p>
+    <!-- Conteúdo -->
+    <section class="content">
+        <h1>Águia Distribuidora</h1>
+        <p class="sub">Gás • Água • Entrega Rápida</p>
 
-        <!-- Botão WhatsApp -->
-        <a class="btn-whatsapp" href="https://wa.me/5513991006476" target="_blank">
-            💬 Pedir no WhatsApp
+        <a class="btn" href="https://wa.me/5513991006476" target="_blank">
+            Chamar no WhatsApp
         </a>
-    </div>
+    </section>
 
-    <footer>
-        © 2025 Águia Distribuidora • Desenvolvido por CyberWeb (Caique Pievetti)
-    </footer>
+    <!-- Ícones -->
+    <section class="icons">
+        <div class="icon-box">
+            <img src="gas.png" alt="Gás P13">
+            <p>Gás P13</p>
+        </div>
+
+        <div class="icon-box">
+            <img src="agua.png" alt="Água 20L">
+            <p>Água 20L</p>
+        </div>
+
+        <div class="icon-box">
+            <img src="moto.png" alt="Entrega Rápida">
+            <p>Entrega Rápida</p>
+        </div>
+    </section>
+
+    <!-- Botão flutuante WhatsApp -->
+    <a href="https://wa.me/5513991006476" target="_blank" class="zap-fixed">
+        <img src="zap.png" alt="WhatsApp">
+    </a>
 
 </body>
 </html>
